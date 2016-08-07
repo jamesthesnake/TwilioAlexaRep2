@@ -3,7 +3,7 @@ var KEY_CURRENT_NAME = "name";
 var KEY_CURRENT_PHONE = "phone";
 var KEY_CURRENT_MESSAGE = "message";
 
-var APP_ID = "amzn1.echo-sdk-ams.app.cfa071d3-357c-4e21-a8b9-dea45072df4e"; //replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
+var APP_ID = "amzn1.ask.skill.a376ddad-7a8b-484a-992b-9b4ffbe4314e"; //replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
 var AlexaSkill = require('./AlexaSkill');
 var https = require('https');
 var helpText = "you can ask me to send voice; or text message.";

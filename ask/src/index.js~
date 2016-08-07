@@ -75,7 +75,7 @@ TM.prototype.intentHandlers = {
 		console.log("Name " + name);
 		console.log("Type " + messageType);
 		
-		var url = "https://hook.io/krvarma/sendmessage?text=" + encodeURIComponent(message) + "&number=" + name + "&messagetype=" + messageType;
+		var url = "https://hook.io/jamesthesnake/sendmessage?text=" + encodeURIComponent(message) + "&number=" + name + "&messagetype=" + messageType;
 		
 		console.log("URL " + url);
 		
